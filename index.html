@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CECYPAGO - Compras en Línea</title>
+  <style>
+    /* Estilos CSS */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f2f2f2;
+    }
+    
+    #header {
+      background-color: #236B8E;
+      padding: 10px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+    
+    #header img {
+      height: 30px;
+      margin-right: 10px;
+    }
+    
+    #header h1 {
+      font-size: 20px;
+      margin: 0;
+      color: #fff;
+    }
+    
+    #header .buttons {
+      display: flex;
+      align-items: center;
+    }
+    
+    #header .buttons a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 10px;
+      padding: 5px 10px;
+      border: 1px solid #fff;
+      border-radius: 3px;
+    }
+    
+    #recommended-products {
+      font-family: 'Verdana', sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      color: #555;
+      margin-bottom: 10px;
+    }
+    
+    #discount-text {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 20px;
+    }
+    
+    #products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 30px;
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    .product-item {
+      text-align: center;
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 5px;
+      background-color: #f8f8f8;
+      flex-basis: 24%;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: box-shadow 0.3s ease;
+    }
+    
+    .product-item:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    .product-item img {
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    
+    .product-item h3 {
+      font-size: 18px;
+      margin: 10px 0;
+      color: #333;
+    }
+    
+    .product-item p {
+      margin: 5px 0;
+      color: #666;
+    }
+    
+    #footer {
+      text-align: center;
+      font-size: 12px;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="header">
+    <div class="buttons">
+      <a href="#">Productos</a>
+      <a href="../Proyecto 3er Parcial/prouecto karlo/principal.html" target="_blank">Centro de ayuda</a>
+    </div>
+    <img src="logo.png" alt="CECYPAGO">
+    <h1>CECYPAGO - Compras en Línea</h1>
+  </div>
+
+  <div id="recommended-products">Productos que recomendamos</div>
+  <div id="discount-text">Descuentos por día del padre</div>
+
+  <ul id="products">
+    <li class="product-item">
+      <img src="XBOX.jpg" alt="Producto 1">
+      <h3>Xbox series X</h3>
+      <p>Precio: $13,999.00</p>
+      <a href="../Proyecto 3er Parcial/Más informacion productos.html"> Ver más.</a>
+    </li>
+    <li class="product-item">
+      <img src="Red bull.jpg" alt="Producto 2">
+      <h3>Red bull</h3>
+      <p>Precio: $54.99</p>
+      <a href="../Proyecto 3er Parcial/Red Bull Varios sabores.html"> Ver más</a>
+    </li>
+    <li class="product-item">
+      <img src="ahiwey.jpg" alt="Producto 3">
+      <h3>Huawei P50</h3>
+      <p>Precio: $25,999.99</p>
+      <a href="../Proyecto 3er Parcial/Huawei P50.html"> Ver más</a>
+    </li>
+    <li class="product-item">
+      <img src="Lenovo.png" alt="Producto 4">
+      <h3>Laptop Lenovo</h3>
+      <p>Precio: $24,599.00</p>
+      <a href="../Proyecto 3er Parcial/Laptop Gamer Lenovo.html"> Ver más</a>
+    </li>
+	<li class="product-item">
+      <img src="monster.jpg" alt="Producto 4">
+      <h3>Bebida Monster</h3>
+      <p>Precio: $38.00</p>
+      <a href="../Proyecto 3er Parcial/Bebida energetica Monster.html"> Ver más</a>
+    </li>
+    <li class="product-item">
+      <img src="tos.jpg" alt="Producto 4">
+      <h3>Oster Tostadora</h3>
+      <p>Precio: $1,099.00</p>
+      <a href="../Proyecto 3er Parcial/Tostadora Oster.html"> Ver más</a>
+    </li><li class="product-item">
+      <img src="balon.jpg" alt="Producto 4">
+      <h3>Balon de baloncesto</h3>
+      <p>Precio: $599.00</p>
+      <a href="../Proyecto 3er Parcial/Balon oficial NBA.html"> Ver más</a>
+    </li>
+  </ul>
+
+  <div id="footer">
+    <p>
+      Derechos reservados del CECYTEM COACALCO<br>
+      Albino Guerra Pedro N.L 2<br>
+      Altamirano Sedano Estavan Vidal N.L 3<br>
+      Badillo Pool Axl Dominic N.L 6<br>
+      Carabes Ferrer Ricardo N.L 8<br>
+      Santana Guadarrama Demian Carlo N.L 35
+    </p>
+  </div>
+</body>
+
+</html>

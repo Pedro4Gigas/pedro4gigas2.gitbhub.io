@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Detalle de la compra</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    /* Estilos para el encabezado */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #5063CA;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .carrito-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .carrito-container i {
+      margin-right: 5px;
+    }
+
+    .profile-container {
+      display: flex;
+      align-items: center;
+      margin-right: -1050px;
+    }
+
+    .profile-image {
+      border-radius: 50%;
+      margin-right: 5px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: center; /* Alineación centrada */
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 5px;
+    }
+
+    section {
+      padding: 20px;
+      display: flex;
+    }
+
+    footer {
+      background-color: #5063CA;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Estilos para mover los textos hasta la derecha */
+    .detalle-compra {
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .detalle-compra img {
+      margin-right: 20px;
+    }
+
+    .detalle-compra table {
+      margin-left: 20px;
+    }
+
+    .detalle-compra table td {
+      padding: 5px 10px;
+    }
+
+    .detalle-compra td.texto-derecha {
+      text-align: right;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="../Proyecto 3er Parcial/index.html">Inicio</a></li>
+        <li><a href="../Proyecto 3er Parcial/prouecto karlo/principal.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="profile-container">
+      <img src="chayanne.jfif" alt="Perfil" width="40" height="40" class="profile-image">
+      <span>Prueba</span>
+    </div>
+    <div class="carrito-container">
+      <i class="fas fa-shopping-cart"></i>
+      <span>Carrito</span>
+    </div>
+  </header>
+  
+  <h1>Detalle de la compra</h1>
+  
+  <div class="detalle-compra">
+    <img src="lenovo.webp" alt="Imagen de la compra" width="400" height="300">
+    <table>
+      <tr>
+        <td><strong>Producto:</strong></td>
+        <td>Laptop Gaming Lenovo Legion 5ta generacion</td>
+      </tr>
+      <tr>
+        <td><strong>Cantidad:</strong></td>
+        <td class="texto-derecha">4</td>
+      </tr>
+      <tr>
+        <td><strong>Precio unitario:</strong></td>
+        <td class="texto-derecha">$24,599.00</td>
+      </tr>
+      <tr>
+        <td><strong>Total:</strong></td>
+        <td class="texto-derecha">$98,396.00</td>
+      </tr>
+    </table>
+  </div>
+  
+  <footer>
+    &copy; 2023. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
